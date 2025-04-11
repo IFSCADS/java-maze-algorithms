@@ -7,8 +7,10 @@ import java.util.List;
 import java.util.Queue;
 
 import javax.swing.Timer;
+import main.Maze;
+import main.MazeGridPanel;
 
-import main.*;
+//import main.*;
 import util.Cell;
 
 public class BFSSolve {

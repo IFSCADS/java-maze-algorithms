@@ -89,15 +89,18 @@ public class MazeGridPanel extends JPanel {
 	public void solve(int index) {
 		switch (index) {
 		case 0:
-			new BiDFSSolve(grid, this);
+			new SeuResolvedor(grid, this);
 			break;
 		case 1:
+			new BiDFSSolve(grid, this);
+			break;
+		case 2:
 			new BFSSolve(grid, this);
 			break;
-		case 2: 
+		case 3:
 			new DFSSolve(grid, this);
 			break;
-		case 3:
+		case 4:
 			new DijkstraSolve(grid, this);
 			break;
 		default:

@@ -21,6 +21,10 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
+import solver.*;
+import generator.*;
+import util.*;
+
 public class Maze {
 
 	public static final int WIDTH = 800;
@@ -34,7 +38,7 @@ public class Maze {
 			"2. DFS", "3. Eller's", "4. Growing Forest", "5. Growing Tree", "6. Houston's", 
 			"7. Hunt & Kill", "8. Kruskal's", "9. Prim's", "10. Quad-directional DFS", "11. Sidewinder", 
 			"12. Spiral Backtracker", "13. Wilson's", "14. Zig-Zag"};
-	private static final String[] SOLVING_METHODS = {"0. Bi-directional DFS", "1. BFS", "2. DFS", "3. Dijkstra's"};
+	private static final String[] SOLVING_METHODS = {"0. SEU RESOLVEDOR", "1. Bi-directional DFS", "2. BFS", "3. DFS", "4. Dijkstra's"};
 
 	private int cols, rows;
 
